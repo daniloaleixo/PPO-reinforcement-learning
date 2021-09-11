@@ -2,3 +2,5 @@
 PPOCartpole/
 saved_models/
 */__pycache__/
+tensorboard_*
+stats.json
