@@ -168,14 +168,11 @@ class PPO:
         print("\t- learning_rate: ", self.lr)
         print("\t- batch_size: ", self.batch_size)
         print("\t- buffer_size: ", self.buffer_size)
-        print("\t- reward function: ", env.reward_function)
         print("\t- epochs: ", self.epochs)
         print("\t- loss_clipping: ", self.loss_clipping)
         print("\t- noise: ", self.noise)
         print("\t- entropy_loss: ", self.entropy_loss)
-        print("\t- initial cash: ", env.initial_cash)
         print("\t- profit_window_size: ", env.profit_window_size)
-        print("\t- inaction_penalty: ", env.inaction_penalty)
         print("-" * 50)
 
 
